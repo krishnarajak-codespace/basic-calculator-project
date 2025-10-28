@@ -75,7 +75,7 @@ Designed to reflect a professional web developer’s touch
 Name: Krishna Rajak
 Certification: NSDC Certified Web Developer
 Project: Advanced Calculator (Front-End Assignment)
-Email: info@unifiedmentor.com
+Email: rajakkrishna695@gmail.com
 
 📜 License
 
