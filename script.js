@@ -1,40 +1,42 @@
-const result = document.getElementById("result");
+const expr = document.getElementById("expression");
+const output = document.getElementById("output");
 const buttons = document.querySelectorAll(".btn");
 
+// Button click handler
 buttons.forEach(button => {
   button.addEventListener("click", () => handleInput(button.dataset.value));
 });
 
+// Keyboard support
 document.addEventListener("keydown", e => {
   const key = e.key;
-  if (/[\d+\-*/.=]|Enter|Backspace|Delete|%/.test(key)) {
+  if (/[\d+\-*/.^()%=]|Enter|Backspace/.test(key)) {
     handleInput(key === "Enter" ? "=" : key);
   }
 });
 
 function handleInput(value) {
   if (value === "C") {
-    result.value = "";
+    expr.value = "";
+    output.textContent = "";
   } 
   else if (value === "DEL" || value === "Backspace") {
-    result.value = result.value.slice(0, -1);
+    expr.value = expr.value.slice(0, -1);
   } 
   else if (value === "=") {
     try {
-      let expression = result.value.replace(/√/g, "Math.sqrt");
-      result.value = eval(expression);
+      let expression = expr.value
+        .replace(/√/g, "Math.sqrt")
+        .replace(/π/g, "Math.PI")
+        .replace(/\^/g, "**");
+      let result = eval(expression);
+      if (isNaN(result) || !isFinite(result)) throw "Error";
+      output.textContent = "= " + result;
     } catch {
-      result.value = "Error";
-    }
-  } 
-  else if (value === "%") {
-    try {
-      result.value = eval(result.value) / 100;
-    } catch {
-      result.value = "Error";
+      output.textContent = "Error";
     }
   } 
   else {
-    result.value += value;
+    expr.value += value;
   }
 }

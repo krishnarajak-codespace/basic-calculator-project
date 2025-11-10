@@ -1,84 +1,83 @@
-A modern and fully functional Advanced Calculator built using HTML, CSS, and JavaScript.
-This project performs basic arithmetic operations and supports keyboard input, animations, and a glassmorphism UI — showcasing clean code, responsiveness, and an eye for modern web design.
-
-🚀 Features
-
-✅ Addition, Subtraction, Multiplication, and Division
-
-✅ Square Root (√) and Percentage (%) operations
-
-✅ Keyboard Input Support
-
-✅ Error Handling for invalid or undefined calculations
-
-✅ Animated Gradient Background
-
-✅ Responsive Glass UI with hover and scale effects
-
-🧠 Technologies Used
-Technology	Purpose
-HTML5	Structure of the calculator
-CSS3	Styling, animations, and responsiveness
-JavaScript (ES6)	Calculator logic and event handling
-🖥️ Project Preview
-
-A clean, animated, and user-friendly calculator interface with real-time input display and keyboard support.
-
-⚙️ How to Use
-
-Download or Clone the repository:
-
-git clone https://github.com/yourusername/advanced-calculator.git
+# 🧮 Advanced Calculator — Web Project  
+**Author:** Krishna Rajak  
+**Technologies Used:** HTML, CSS, JavaScript  
 
 
-Open the folder in VS Code or any editor.
+## 📖 Project Overview  
+This project is an **Advanced Web-Based Calculator** built using HTML, CSS, and JavaScript.  
+It is designed to perform a wide range of mathematical operations including basic arithmetic, percentage, and square root calculations.  
+The interface is **clean, responsive, and interactive**, providing a real-time calculation experience similar to a physical calculator.
 
-Run the project by opening index.html in your browser.
 
-Click the buttons or use your keyboard to perform calculations.
+## 🎯 Features  
+✅ **Basic Operations:** Addition (+), Subtraction (−), Multiplication (×), Division (÷)  
+✅ **Advanced Features:**  
+- Square root (√)  
+- Percentage (%)  
+- Brackets `( )` support  
+- Keyboard input support  
+✅ **Error Handling:**  
+- Handles division by zero and invalid input gracefully  
+✅ **Responsive Design:**  
+- Works smoothly on **mobile, tablet, and desktop devices**  
+✅ **User Experience:**  
+- Dynamic gradient background  
+- Animated hover effects  
+- Result appears right below the input, like in modern calculators  
 
-⌨️ Keyboard Shortcuts
-Key	Action
-0-9	Enter digits
-+ - * /	Perform operations
-Enter	Equals (=)
-Backspace	Delete last digit
-Delete	Clear all
-%	Percentage
-√	Square root
-🧩 Project Structure
+
+## 🛠️ Technologies Used  
+- **HTML5** — Structure of the calculator  
+- **CSS3** — Advanced gradient design and responsive layout  
+- **JavaScript (ES6)** — Logical operations, event handling, and input validation  
+
+## 📂 Project Structure  
+
 advanced-calculator/
 │
-├── index.html     # Calculator UI
-├── style.css      # Styling & animations
-├── script.js      # Logic and event handling
-└── README.md      # Documentation
+├── index.html # Main calculator layout
+├── style.css # Styling and animations
+├── script.js # Calculator logic and operations
+└── README.md # Project documentation
 
-💡 Error Handling
+## 🚀 How to Run the Project  
 
-Prevents invalid input execution using try...catch
+1. **Download or Clone** this repository  
+   ```bash
+   git clone https://github.com/krishnarajak-codespace/advanced-calculator.git
+Open index.html in any browser.
 
-Displays Error when an invalid expression is entered
+The calculator is ready to use on desktop or mobile.
 
-Handles divide-by-zero and unexpected operations gracefully
+🧠 Learning Outcomes
+Through this project, I learned how to:
 
-🎨 Design Theme
+Build a responsive calculator layout
 
-Modern Glassmorphism UI
+Implement mathematical logic using JavaScript
 
-Animated gradient background with hover effects
+Handle keyboard inputs and button events
 
-Designed to reflect a professional web developer’s touch
+Apply CSS animations and glassmorphism effects
 
-👨‍💻 Developer
+Manage and debug user errors gracefully
 
-Name: Krishna Rajak
-Certification: NSDC Certified Web Developer
-Project: Advanced Calculator (Front-End Assignment)
-Email: rajakkrishna695@gmail.com
+🏅 About the Author
+👨‍💻 Krishna Rajak
 
-📜 License
+Computer Science & Engineering Graduate
 
-This project is open-source and available for educational and portfolio use.
+Passionate Web Developer
 
-“A simple calculator with professional depth — built to prove that even basics can look brilliant.”
+NSDC Certified in Web Development
+
+📧 Email: rajakkrishna695@gmail.com
+🔗 GitHub: krishnarajak-codespace
+🔗 LinkedIn: Krishna Rajak
+
+📸 Preview
+A simple yet powerful calculator interface with smooth gradients, shadows, and modern buttons for a better user experience.
+
+📝 License
+This project is created for educational purposes under the guidance of Unified Mentor.
+Free to use and modify with proper credit.
